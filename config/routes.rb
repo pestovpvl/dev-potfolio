@@ -5,6 +5,9 @@ Rails.application.routes.draw do
 
   get 'about', to: 'pages#about'
   get 'contact', to: 'pages#contact'
+  get 'angular-items', to: 'portfolios#angular'
+
+
   resources :blogs do
     member do
       get :toggle_status
