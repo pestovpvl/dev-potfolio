@@ -12,12 +12,7 @@
   </head>
 
   <body>
-   <%= link_to "Home", root_path %>
-   <%= link_to "About", about_path %>
-   <%= link_to "Contact", contact_path %>
-   <%= link_to "Blogs", blogs_path %>
-   <%= link_to "Portfolio", portfolios_path %>
-
+  <%= render partial: "shared/nav.html.erb" %>
   <p class="notice"><%= notice %></p>
        <p class="alert"><%= alert %></p>
   <% if current_user.is_a?(User) %>
