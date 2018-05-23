@@ -23,9 +23,7 @@
 <%= render "shared/nav.html.erb", location: 'bottom' %>
 
 
-<% if session[:source] %>
-   <h2> Thank for visited: <%= session[:source] %> </h2>
-<% end %>
+<%= source_helper("blog") %>
 
   </body>
 </html>
