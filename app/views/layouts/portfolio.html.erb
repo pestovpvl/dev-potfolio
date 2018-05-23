@@ -12,7 +12,7 @@
   </head>
 
   <body>
-   <%= render partial: "shared/nav.html.erb" %>
+   <%= render "shared/nav.html.erb", location: 'top' %>
   <p class="notice"><%= notice %></p>
        <p class="alert"><%= alert %></p>
   <% if current_user.is_a?(User) %>
