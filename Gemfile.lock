@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/pestovpvl/pestau_gem
+  revision: f3bf374146cd0a1f3461c0ddca7ba8841296f2d3
+  specs:
+    pestau_gem (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -205,6 +211,7 @@ DEPENDENCIES
   friendly_id (~> 5.1.0)
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
+  pestau_gem!
   pg (>= 0.18, < 2.0)
   pry-byebug
   puma (~> 3.11)

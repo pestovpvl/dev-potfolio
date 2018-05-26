@@ -13,5 +13,9 @@ def source_helper(layout_name)
         content_tag(:p, greeting, class: "source-greeting")
      end
 end
-  
+
+def copyright_generator
+    PestauGem::Renderer.copyright 'Pavel Pestau', 'All right reserved'
+end
+
 end
