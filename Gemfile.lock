@@ -106,6 +106,8 @@ GEM
       mini_portile2 (~> 2.3.0)
     orm_adapter (0.5.0)
     pestau_gem (0.1.0)
+    petergate (1.8.1)
+      activerecord (> 4.0.0)
     pg (1.0.0)
     popper_js (1.12.9)
     pry (0.11.3)
@@ -207,6 +209,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   pestau_gem (= 0.1.0)
+  petergate (~> 1.8, >= 1.8.1)
   pg (>= 0.18, < 2.0)
   pry-byebug
   puma (~> 3.11)
