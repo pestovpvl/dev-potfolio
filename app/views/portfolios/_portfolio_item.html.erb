@@ -1,4 +1,5 @@
 <% @portfolio_items.each do |portfolio_item| %>
+<div class="card" data-id="<%= portfolio_item.id %>">
   <p>  <%= link_to portfolio_item.title, portfolio_show_path(portfolio_item.id) %></p>
   <p>    <%= portfolio_item.body %></p>
   <img src='<%= portfolio_item.thumb_image %>'>
@@ -8,5 +9,5 @@
 
     <%= link_to "Destroy", portfolio_path(portfolio_item), method: :delete, data: { confirm: 'Are you sure?' } if logged_in?(:site_admin) %>
 
-
+</div>
 <% end %>
