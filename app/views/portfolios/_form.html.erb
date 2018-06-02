@@ -7,6 +7,13 @@
     <%= form.text_field :title %>
   </div>
 
+  <div class="image-upload">
+    <%= form.file_field :main_image %>
+  </div>
+  <div class="image-upload">
+    <%= form.file_field :thumb_image %>
+  </div>
+
   <div class="field">
     <%= form.label :body %>
     <%= form.text_area :body %>

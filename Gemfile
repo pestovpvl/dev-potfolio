@@ -67,3 +67,9 @@ gem 'petergate', '~> 1.8', '>= 1.8.1'
 gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
 
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
+
+gem 'carrierwave', '~> 0.11.2'
+
+gem 'mini_magick', '~> 4.5', '>= 4.5.1'
+
+gem 'dotenv-rails', '~> 2.1', '>= 2.1.1'
